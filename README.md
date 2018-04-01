@@ -9,5 +9,12 @@ Feed your own image data to a pre-trained network by tensorflow with Queue or TF
 ## Dependency
 * Prefered `tensorflow` version is 1.3.
 
-#Dataset
+# Dataset
 * `MNIST`
+
+# Some Reference
+* https://github.com/yeephycho/tensorflow_input_image_by_tfrecord
+* https://blog.gtwang.org/programming/tensorflow-read-write-tfrecords-data-format-tutorial/
+* http://warmspringwinds.github.io/tensorflow/tf-slim/2016/12/21/tfrecords-guide/
+* https://www.jianshu.com/p/78467f297ab5
+* https://ischlag.github.io/2016/06/19/tensorflow-input-pipeline-example/
