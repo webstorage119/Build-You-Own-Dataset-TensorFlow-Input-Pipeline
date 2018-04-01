@@ -2,8 +2,8 @@
 Feed your own image data to a pre-trained network by tensorflow with Queue or TFRecords
 
 ## This project demonstrates:
-*How to use a tensorflow queue to build your input pipeline
-*How to turn your own image/label to tfrecord format and read the images/labels from the tfrecord file
+*How to use a tensorflow queue to build your input pipeline.
+*How to turn your own image/label to tfrecord format and read the images/labels from the tfrecord file.
 *How to feed the images/labels to your own neural network.
 
 ## Dependency
