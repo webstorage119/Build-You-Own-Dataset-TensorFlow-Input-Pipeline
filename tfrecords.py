@@ -15,6 +15,14 @@ def _bytes_feature(value):
 
 
 def encode_to_tfrecordes(tfrecordes_filename, image_paths, labels):
+"""
+Convert your dataset to .tfrecords file
+Args:
+    tfrecord_filename: the filename of your .tfrecords file
+    image_paths: a list of string containg image path
+    labels: a list of label containing a related image path
+        image_paths, labels = queue.get_images_list(file_or_dataset, mode)  
+"""
     if os.path.exists(tfrecordes_filename):
         print "'%s' exists" % tfrecordes_filename
         input_instruction = raw_input("Do you want to remove it?[y/n]")
