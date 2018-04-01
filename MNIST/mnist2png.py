@@ -1,4 +1,35 @@
 #!/usr/bin/env/python
+"""
+This code to decode the MNIST dataset to png images.
+The file directory like this
+    '''
+    ROOT_FOLDER
+        |------ training
+        |           |------ 0
+        |           |       |
+        |           |       |---- image1.jpg
+        |           |       |---- image2.jpg
+        |           |       |---- etc...
+        |           |------ 1
+        |           |       |
+        |           |       |---- image1.jpg
+        |           |       |---- image2.jpg
+        |           |       |---- etc...
+        |           |------ etc...
+        |------ testing
+        |           |------ 0
+        |           |       |
+        |           |       |---- image1.jpg
+        |           |       |---- image2.jpg
+        |           |       |---- etc...
+        |           |------ 1
+        |           |       |
+        |           |       |---- image1.jpg
+        |           |       |---- image2.jpg
+        |           |       |---- etc...
+        |           |------ etc...
+    '''
+"""
 import os
 import struct
 import sys
