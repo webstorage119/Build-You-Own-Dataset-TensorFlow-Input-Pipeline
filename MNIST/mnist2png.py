@@ -29,6 +29,7 @@ The file directory like this
         |           |       |---- etc...
         |           |------ etc...
     '''
+    You should download MNIST Dataset and put the dataset in the directory 'MNIST"
 """
 import os
 import struct
